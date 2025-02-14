@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume_parser_pro"
+version = "1.0.2"
+description = "A production-grade Python package to parse PDF/DOCX resumes."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Kumar Abhinav", email = "rushtoabhinavin@gmail.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "spacy>=3.0.0",
+  "python-docx",
+  "PyPDF2"
+]
+
+requires-python = '>=3.6'
+
+

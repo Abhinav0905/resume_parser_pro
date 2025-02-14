@@ -1,0 +1,38 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python files
+*.py[cod]
+__pycache__/
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Miscellaneous
+*.bak

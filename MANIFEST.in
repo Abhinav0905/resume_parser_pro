@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.cfg
+include setup.py
+recursive-include src/resume_parser_pro *
+recursive-include tests *
+recursive-include docs *
+
